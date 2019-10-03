@@ -18,4 +18,5 @@ The final tests must execute when mvn test is run.
 
 Execute mvn test to test the results
 Run the Global Logic Test File to get the test results
+
 C:\GlobalLogic\sample\test-output\Default suite -- Path to verify the results

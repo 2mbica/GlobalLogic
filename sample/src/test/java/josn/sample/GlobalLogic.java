@@ -17,15 +17,20 @@ import io.restassured.response.Response;
  *
  */
 /**
- * @author aanthannagar
- * @param <Oject>
+ 	   Verify that Status Code is 200
+     - Verify the Respose Body: Explicitly verify that the data contains 6 data objects
  *
  */
 public class GlobalLogic<Oject> {
 
 	final static String ROOT_URI = "https://reqres.in/api";
 	
-
+	/**
+	Verify that Status Code is 200
+  - Verify the Respose Body
+  	Explicitly verify that the data contains 6 data objects
+	 *
+	 */
 	@Test
 	public void get_users() {
 		System.out.println("************Test Case 1****************");
@@ -62,8 +67,12 @@ public class GlobalLogic<Oject> {
 			e.printStackTrace();
 		}
 	}
-	
-	
+	/**
+	   Verify that Status Code is 200 for the first user
+     - Verify the Respose Body
+     - Verify the JSON Schema
+	 *
+	 */
 	@Test
 	public void get_user_one() {
 		System.out.println("************Test Case 2****************");
@@ -97,10 +106,12 @@ public class GlobalLogic<Oject> {
     }
 		
 	}
-
-	
-	
-	
+	/**
+	  Verify that Status Code is 201 for the post call
+  	  Verify the Respose Body
+  	  Verify the JSON Schema
+	 *
+	 */
 	@Test
 	public void post_user() {
 		System.out.println("************Test Case 3****************");
@@ -135,9 +146,12 @@ public class GlobalLogic<Oject> {
 	    }
 		
 	}
-
-	
-	
+	/**
+	  Verify that Status Code is 400 for the post call
+	  Verify the Respose Body
+	  Verify the JSON Schema
+	 *
+	 */
 	@Test
 	public void post_incorrectuser() {
 		System.out.println("************Test Case 4****************");
@@ -171,7 +185,12 @@ public class GlobalLogic<Oject> {
 	    }
 		
 	}
-	
+	/**
+	  Verify that Status Code is 200 for the put call
+	  Verify the Respose Body
+	  Verify the JSON Schema
+	 *
+	 */
 	@Test
 	public void put_user()
 	{
