@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3938" started-at="2019-10-02T19:51:09Z" finished-at="2019-10-02T19:51:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3938" started-at="2019-10-02T19:51:09Z" finished-at="2019-10-02T19:51:13Z">
+      <class name="josn.sample.GlobalLogic">
+        <test-method status="PASS" signature="get_user_one()[pri:0, instance:josn.sample.GlobalLogic@d5c04e]" name="get_user_one" duration-ms="2811" started-at="2019-10-02T15:51:10Z" finished-at="2019-10-02T15:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_user_one -->
+        <test-method status="PASS" signature="get_users()[pri:0, instance:josn.sample.GlobalLogic@d5c04e]" name="get_users" duration-ms="129" started-at="2019-10-02T15:51:12Z" finished-at="2019-10-02T15:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_users -->
+        <test-method status="PASS" signature="post_incorrectuser()[pri:0, instance:josn.sample.GlobalLogic@d5c04e]" name="post_incorrectuser" duration-ms="341" started-at="2019-10-02T15:51:12Z" finished-at="2019-10-02T15:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_incorrectuser -->
+        <test-method status="PASS" signature="post_user()[pri:0, instance:josn.sample.GlobalLogic@d5c04e]" name="post_user" duration-ms="316" started-at="2019-10-02T15:51:13Z" finished-at="2019-10-02T15:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_user -->
+        <test-method status="PASS" signature="put_user()[pri:0, instance:josn.sample.GlobalLogic@d5c04e]" name="put_user" duration-ms="319" started-at="2019-10-02T15:51:13Z" finished-at="2019-10-02T15:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_user -->
+      </class> <!-- josn.sample.GlobalLogic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
